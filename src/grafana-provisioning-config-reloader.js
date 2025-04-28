@@ -14,7 +14,7 @@ const GF_SERVER_PROTOCOL = process.env['GF_SERVER_PROTOCOL'] || 'http'
 const GF_SERVER_HTTP_PORT = process.env['GF_SERVER_HTTP_PORT'] || '3000'
 const GF_SERVER_ROOT_URL=`${GF_SERVER_PROTOCOL}://${GF_SERVER_DOMAIN}:${GF_SERVER_HTTP_PORT}`
 const GF_SECURITY_ADMIN_USER = process.env['GF_SECURITY_ADMIN_USER'] || 'grafana'
-const GF_SECURITY_ADMIN_PASSWORD = process.env['GF_SECURITY_ADMIN_USER'] || 'grafana'
+const GF_SECURITY_ADMIN_PASSWORD = process.env['GF_SECURITY_ADMIN_PASSWORD'] || 'grafana'
 const GF_PATHS_PROVISIONING = process.env['GF_PATHS_PROVISIONING'] || '/etc/grafana/provisioning'
 
 // gf-provisioning-config-reloader
