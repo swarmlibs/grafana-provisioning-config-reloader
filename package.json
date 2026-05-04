@@ -16,13 +16,18 @@
     "chokidar": "^3.6.0",
     "debounce": "^2.1.0",
     "p-retry": "^6.2.0",
-    "picomatch": "^4.0.2",
+    "picomatch": "^4.0.4",
     "pino": "^9.2.0",
     "pino-pretty": "^11.2.1",
-    "uuid": "^10.0.0"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "picomatch@<2.3.2": "^2.3.2"
+    }
   },
   "packageManager": "pnpm@9.4.0"
 }
