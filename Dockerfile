@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM --platform=$BUILDPLATFORM node:22-alpine AS builder
 
 RUN --mount=type=bind,source=.,target=/app,rw <<EOF
